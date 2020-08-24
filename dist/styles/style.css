@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -63,7 +63,7 @@ a {
   color: white;
 }
 
-.btn.pricing {
+.btn#pricing {
   width: 150px;
   padding: 2rem 0;
   border: solid 1px #2e184a;
@@ -83,20 +83,20 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   min-height: 100vh;
 }
 
 .hero .container .heading {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
 }
 
 .hero .container .heading h1 {
@@ -120,8 +120,8 @@ a {
 
 .hero .container img {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
 }
 
 @media only screen and (max-width: 860px) {
@@ -147,26 +147,26 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .about .container img {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 10rem;
-          flex: 1 1 10rem;
+  -ms-flex: 1 1 10rem;
+  flex: 1 1 10rem;
   margin-right: 5rem;
 }
 
 .about .container .heading {
   -webkit-box-flex: 3;
-      -ms-flex: 3 1 30rem;
-          flex: 3 1 30rem;
+  -ms-flex: 3 1 30rem;
+  flex: 3 1 30rem;
 }
 
 .about .container .heading h2 {
@@ -217,51 +217,51 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .features .container .feature-wrapper .feature {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
   text-align: center;
   padding: 4rem;
 }
 
-.pricing {
+#pricing {
   background: #2e184a;
   padding: 5rem 0;
 }
 
-.pricing .container {
+#pricing .container {
   width: 90%;
   margin: 0 auto;
 }
 
-.pricing .container h2 {
+#pricing .container h2 {
   text-align: center;
   color: white;
 }
 
-.pricing .container .price-wrapper {
+#pricing .container .price-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 3rem;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.pricing .container .price-wrapper .price {
+#pricing .container .price-wrapper .price {
   background: #f4f4f4;
   border-radius: 5px;
   display: -webkit-box;
@@ -269,62 +269,65 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 30rem;
-          flex: 1 1 30rem;
+  -ms-flex: 1 1 30rem;
+  flex: 1 1 30rem;
   margin: 0 5rem;
   margin-top: 2rem;
 }
 
-.pricing .container .price-wrapper .price .price-content {
+#pricing .container .price-wrapper .price .price-content {
   text-align: center;
 }
 
-.pricing .container .price-wrapper .price .price-content .title {
+#pricing .container .price-wrapper .price .price-content .title {
   background: #aea6b8;
   border-radius: 0.5rem 0.5rem 0 0;
   margin-bottom: 2rem;
   padding: 1rem 0;
 }
 
-.pricing .container .price-wrapper .price .price-content .title h3 {
+#pricing .container .price-wrapper .price .price-content .title h3 {
   font-weight: 500;
   text-transform: uppercase;
   color: white;
   font-size: 2.4rem;
 }
 
-.pricing .container .price-wrapper .price .price-content .package-price {
+#pricing .container .price-wrapper .price .price-content .package-price {
   color: #ff8656;
   margin-bottom: 2rem;
 }
 
-.pricing .container .price-wrapper .price a {
+#pricing .container .price-wrapper .price a {
   color: #2e184a;
+  border: 1px solid #2e184a;
+  padding: 1rem 2rem;
+  border-radius: 3px;
 }
 
-.pricing .container .price-wrapper .price button {
+#pricing .container .price-wrapper .price button {
   margin: 3rem auto;
 }
 
 @media only screen and (max-width: 1280px) {
-  .pricing .container .price-wrapper .price {
+  #pricing .container .price-wrapper .price {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 20rem;
-            flex: 1 1 20rem;
+    -ms-flex: 1 1 20rem;
+    flex: 1 1 20rem;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .pricing .container .price-wrapper .price {
+  #pricing .container .price-wrapper .price {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 40rem;
-            flex: 1 1 40rem;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
   }
 }
 
@@ -334,14 +337,14 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   background: #f4f4f4;
   padding: 5rem 0;
   text-align: center;
