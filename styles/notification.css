@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 6.4rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+  color: #2e184a;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  background: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  cursor: pointer;
+  width: 225px;
+  height: 70px;
+  color: white;
+}
+
+.btn.whatsapp {
+  background: #07cf3f;
+}
+
+.btn.adsid {
+  background: #000;
+}
+
+.container {
+  width: 40vw;
+  border-radius: 10px;
+  margin: 10vh auto;
+  background: #fefefe;
+  -webkit-box-shadow: -4px -4px 20px rgba(0, 0, 0, 0.25), 4px 4px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: -4px -4px 20px rgba(0, 0, 0, 0.25), 4px 4px 20px rgba(0, 0, 0, 0.25);
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+  text-align: center;
+}
+
+.container p {
+  margin: 3rem 0;
+}
+
+.container h2 {
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=notification.css.map */
